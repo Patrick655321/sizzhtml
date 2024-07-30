@@ -1,0 +1,123 @@
+@font-face {
+    font-family: blurb;
+    src: url(./fonts/MONOFONT.ttf); }
+
+    @font-face {
+        font-family: comingsoon;
+        src: url(./fonts/OrcaRole-rvxgO.ttf); }
+
+        @keyframes pulse {
+            0%
+            {
+              transform: scale( .99);
+            }
+            20%
+            {
+              transform: scale( 1 );
+            }
+            40%
+            {
+              transform: scale( .99 );
+            }
+            60%
+            {
+              transform: scale( 1 );
+            }
+            80%
+            {
+              transform: scale( .99 );
+            }
+            100%
+            {
+              transform: scale( .99 );
+            }
+          }
+
+body {
+    padding:0%;
+    border: 0%;
+    display:flex;
+    flex-direction: column;
+    height: 200vh;
+    width:100vw;
+    background-color: rgb(41, 39, 41);
+    overflow-x: hidden;
+}
+#demShoulders {
+    position: fixed;
+    width:100%;
+    height:auto;
+    max-height:100vh;
+    object-fit: cover;
+}
+
+#topMenu {
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 1%;
+    background-color: black;
+    z-index: 1000;
+}
+#logo-container {
+    position: relative;
+    width:30vw;
+}
+
+#logo-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+#menu-logo {
+    border-radius:50%;
+    height: 100%;
+    animation: pulse 2s linear infinite;
+    visibility: hidden;
+}
+
+#menuLogo {
+    height: 100%;
+    clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 100% 0%, 0% 0%);
+    visibility: visible;
+}
+
+#navBar {
+    width:70vw;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+}
+
+.navItem {
+    padding-top: 1vh;
+    padding-right: 2vw;
+    border-right: 1vw;
+    text-decoration: none;
+    font-family: comingsoon;
+    color: rgb(205, 162, 245);
+    font-size: 3vh;
+    transition: all 0.5s;
+}
+
+.navItem:hover {
+    color: black;
+    background-color: rgb(205, 162, 245);
+    border-radius: 60%;
+}
+
+@media only screen and (max-width: 500px) {
+    #menu-logo {
+        height: 5vh;
+        visibility: visible;
+    }
+    
+    #menuLogo {
+        height: 5vh;
+        clip-path: polygon(0% 0%, 0% 100%, 60% 100%, 100% 0%, 0% 0%);
+        visibility: hidden;
+    }
+
+}
