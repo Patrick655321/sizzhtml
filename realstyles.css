@@ -13,7 +13,7 @@
         @keyframes pulse {
             0%
             {
-              transform: scale( .99);
+              transform: scale( .97);
             }
             20%
             {
@@ -21,7 +21,7 @@
             }
             40%
             {
-              transform: scale( .99 );
+              transform: scale( .97 );
             }
             60%
             {
@@ -29,11 +29,11 @@
             }
             80%
             {
-              transform: scale( .99 );
+              transform: scale( .97 );
             }
             100%
             {
-              transform: scale( .99 );
+              transform: scale( .97 );
             }
           }
 
@@ -169,7 +169,32 @@ body {
     padding-top: 28vh;
 }
 
+#contents-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 39, 41);
+    width: 100%;
+}
+
+#title-box {
+    position: relative;
+    height:10vh;
+    bottom: 5vh;
+    z-index: 1;
+}
+.page-break {
+    border-radius: 50%;
+    height:100%;
+    animation: pulse 2s linear infinite;
+    box-shadow: 0 0 50px #b571f4;
+    
+}
+
 #about-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
     color: aqua;
 }
 
