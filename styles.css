@@ -116,5 +116,8 @@ h1 {
   height: 40px
 }
 
+#about-me {
+  padding-top: 100vh;
+}
 
 }
