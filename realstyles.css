@@ -175,6 +175,7 @@ body {
     align-items: center;
     background-color: rgb(41, 39, 41);
     width: 100%;
+    margin-top: 20vh;
 }
 
 #title-box {
@@ -184,6 +185,7 @@ body {
     z-index: 1;
 }
 .page-break {
+    background-color: none;
     border-radius: 50%;
     height:100%;
     animation: pulse 2s linear infinite;
@@ -196,6 +198,55 @@ body {
     flex-direction: column;
     width: 90vw;
     color: aqua;
+}
+
+#about-title-container {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+}
+
+#about-title-box {
+    position: relative;
+    background-color: #af8ad1;
+}
+
+#about-title {
+    display: flex;
+    flex-direction: row;
+    color: rgb(41, 39, 41);
+    color:#f1dac9;
+    position: relative;
+    left: 4.5vw;
+    font-family: title;
+    font-size: 3em;
+}
+#about-me-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me {
+    padding: 2vw;
+    padding-right: 5vw;
+    width: 40vw;
+    font-family: arial;
+    font-size: 1.5em;
+    background-color: rgb(24, 23, 24);
+    color:rgb(205, 162, 245);
+    border-style: solid ;
+    border-color: #838383;
+    border-width: thick;
+    border-radius: 25px;
+}
+
+#casual-sizz {
+    position: relative;
+    top:13vh;
+    right:2vw;
+    height: 50vh;
+    border-radius: 25px;
 }
 
 
