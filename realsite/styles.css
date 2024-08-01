@@ -241,6 +241,10 @@ body {
     border-radius: 25px;
 }
 
+.break {
+    display: none;
+}
+
 #casual-sizz {
     position: relative;
     top:13vh;
@@ -248,6 +252,8 @@ body {
     height: 50vh;
     border-radius: 25px;
 }
+
+
 
 
 
@@ -305,5 +311,69 @@ body {
         color: #af8ad1;
         background-color: none;
         padding-top: 35vh;
+    }
+
+    #about-container {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    #about-title-container {
+        margin-left: 10vw;
+        display: flex;
+        flex-direction: row;
+        width: 40vw;
+    }
+    
+    #about-title-box {
+        position: relative;
+        background-color: #b571f4;
+    }
+    
+    #about-title {
+        display: flex;
+        flex-direction: row;
+        color: rgb(41, 39, 41);
+        color:#f1dac9;
+        position: relative;
+        left: 4.5vw;
+        font-family: title;
+        font-size: 1.5em;
+    }
+    #about-me-container {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    #about-me {
+        position: relative;
+        padding: 2vw;
+        padding-right: 5vw;
+        width: 100%;
+        font-family: arial;
+        font-size: 1em;
+        background-color: rgb(24, 23, 24);
+        color:#af8ad1;
+        border-style: solid ;
+        border-color: #838383;
+        border-width: thick;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    .break {
+        display:inline
+    }
+    
+    #casual-sizz {
+        position: absolute;
+        top:1vh;
+        right:2vw;
+        height: 18vh;
+        border-radius: 25px;
+        z-index: 2;
     }
 }
