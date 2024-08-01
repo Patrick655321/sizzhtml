@@ -1,0 +1,123 @@
+@font-face {
+    font-family: comingsoon;
+    src: url(./fonts/OrcaRole-rvxgO.ttf); }
+
+@font-face {
+        font-family: blurb;
+        src: url(./fonts/MONOFONT.ttf); }
+
+        @keyframes pulse {
+                0%
+                {
+                  transform: scale( .99);
+                }
+                20%
+                {
+                  transform: scale( 1 );
+                }
+                40%
+                {
+                  transform: scale( .99 );
+                }
+                60%
+                {
+                  transform: scale( 1 );
+                }
+                80%
+                {
+                  transform: scale( .99 );
+                }
+                100%
+                {
+                  transform: scale( .99 );
+                }
+              }
+
+        body {
+    display:flex;
+    height:100vh;
+    width:100vw;
+    background-color: rgb(41, 39, 41);
+    align-items: start;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+h1 {
+    font-family: 'comingsoon';
+    color: beige;
+    font-size: 10vh;
+    padding-bottom: 5vh;
+}
+
+#logo {
+    border-radius:50%;
+    box-shadow: 0 0 50px #b571f4;
+    height: 30vh;
+    animation: pulse 2s linear infinite;
+ }
+
+
+#blurb {
+    padding-top: 10vh;
+    color: rgb(205, 162, 245);
+    text-align: center;
+    font-family: "blurb";
+    font-size: larger;
+    
+}
+
+#socials {
+    font-family: "blurb";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-icons {
+    padding: 1vw;
+    height: 40px
+}
+
+#socials :hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+#reachout {
+    padding-top:2vw;
+    font-family: 'blurb';
+    color: rgb(205, 162, 245);
+}
+
+@media only screen and (max-width: 500px) {
+
+h1 {
+  font-size: 5vh;
+}
+
+#blurb {
+  padding-top: 10vh;
+  color: rgb(205, 162, 245);
+  text-align: center;
+  font-family: "blurb";
+  font-size: larger;
+  padding-bottom: 3vh;
+}
+
+.contact-icons {
+  padding: 3vw;
+  height: 40px
+}
+
+#about-me {
+  padding-top: 100vh;
+}
+
+}
