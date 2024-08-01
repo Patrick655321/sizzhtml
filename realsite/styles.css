@@ -197,7 +197,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 90vw;
-    color: aqua;
 }
 
 #about-title-container {
@@ -225,14 +224,15 @@ body {
 #about-me-container {
     display: flex;
     flex-direction: row;
+    padding-bottom: 10vh;
 }
 
 #about-me {
     padding: 2vw;
     padding-right: 5vw;
     width: 40vw;
-    font-family: arial;
-    font-size: 1.5em;
+    font-family: blurb;
+    font-size: 1.7em;
     background-color: rgb(24, 23, 24);
     color:#af8ad1;
     border-style: solid ;
@@ -252,9 +252,180 @@ body {
     height: 50vh;
     border-radius: 25px;
 }
+#services-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
 
+#services-title-container {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    align-self: flex-end;
+}
 
+#services-title-box {
+    position: relative;
+    background-color: #b571f4;
+}
 
+#services-title {
+    display: flex;
+    flex-direction: row;
+    color: rgb(41, 39, 41);
+    color:#f1dac9;
+    position: relative;
+    right: 4.5vw;
+    font-family: title;
+    font-size: 3em;
+}
+
+#services-blurb {
+    padding: 1vw;
+    width: 90vw;
+    font-family: blurb;
+    font-size: 1.7em;
+    background-color: rgb(24, 23, 24);
+    color:#af8ad1;
+    border-style: solid ;
+    border-color: #838383;
+    border-width: thick;
+    border-radius: 25px;
+}
+#pic-list-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
+.serv-pics-left {
+    position: relative;
+    top:0vh;
+    left:2.5vw;
+    height: 50vh;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.left-box {
+    position: relative;
+    background-color: #b571f4;
+    right: 3vw;
+    top: 1vh;
+    z-index: 2;
+}
+.left-titles {
+    display: flex;
+    flex-direction: row;
+    color:#f1dac9;
+    position: relative;
+    right: 2vw;
+    font-family: comingsoon;
+    font-size: 2.5em;
+    
+}
+#left-lists {
+    right: 1vw;
+    background-color: rgb(24, 23, 24);
+    padding-left: 2vw;
+    font-size: 1.6em;
+    color:#af8ad1;
+    font-family: title;
+    border-style: solid ;
+    border-color: #838383;
+    border-width: thicker;
+    border-radius: 25px;
+    li {
+        padding: 1vh;
+        list-style-type: none;
+    }
+}
+.serv-pics-right {
+    position: relative;
+    top:0vh;
+    right:2.5vw;
+    height: 50vh;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+#right-lists {
+    align-self: flex-end;
+    left: 1vw;
+    list-style-type: none;
+    background-color: rgb(24, 23, 24);
+    padding-right: 2vw;
+    font-size: 1.6em;
+    color:#af8ad1;
+    font-family: title;
+    border-style: solid ;
+    border-color: #838383;
+    border-width: thicker;
+    border-radius: 25px;
+    li {
+        padding: 1vh;
+        list-style-type: none;
+    }
+}
+
+.right-box {
+    position: relative;
+    background-color: #b571f4;
+    left: 8vw;
+    top: 1vh;
+    z-index: 2;
+}
+.right-titles {
+    display: flex;
+    flex-direction: row;
+    color:#f1dac9;
+    position: relative;
+    left: 2vw;
+    font-family: comingsoon;
+    font-size: 2.5em;
+}
+
+#sizz-working {
+    align-self: flex-end;
+}
+
+/* 
+                 ,#####,
+                 #_   _#
+                 |a` `a|
+                 |  u  |
+                 \  =  /
+                 |\___/|
+        ___ ____/:     :\____ ___
+      .'   `.-===-\   /-===-.`   '.
+     /      .-"""""-.-"""""-.      \
+    /'             =:=             '\
+  .'  ' .:    o   -=:=-   o    :. '  `.
+  (.'   /'. '-.....-'-.....-' .'\   '.)
+  /' ._/   ".     --:--     ."   \_. '\
+ |  .'|      ".  ---:---  ."      |'.  |
+ |  : |       |  ---:---  |       | :  |
+  \ : |       |_____._____|       | : /
+  /   (       |----|------|       )   \
+ /... .|      |    |      |      |. ...\
+|::::/''     /     |       \     ''\::::|
+'""""       /'    .L_      `\       """"'
+           /'-.,__/` `\__..-'\
+          ;      /     \      ;
+          :     /       \     |
+          |    /         \.   |
+          |`../           |  ,/
+          ( _ )           |  _)
+          |   |           |   |
+          |___|           \___|
+          :===|            |==|
+           \  /            |__|
+           /\/\           /"""`8.__
+           |oo|           \__.//___)
+           |==|
+           \__/ */
 
 
 @media only screen and (max-width: 500px) {
