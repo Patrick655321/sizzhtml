@@ -251,6 +251,7 @@ body {
     right:2vw;
     height: 50vh;
     border-radius: 25px;
+    box-shadow: 0 0 25px #b571f4;
 }
 #services-container {
     display: flex;
@@ -311,6 +312,7 @@ body {
     height: 50vh;
     border-radius: 25px;
     z-index: 1;
+    box-shadow: 0 0 25px #b571f4;
 }
 
 .left-box {
@@ -353,6 +355,7 @@ body {
     height: 50vh;
     border-radius: 25px;
     z-index: 1;
+    box-shadow: 0px 0 025px #b571f4;
 }
 
 #right-lists {
@@ -396,6 +399,51 @@ body {
 #sizz-working {
     align-self: flex-end;
     height: 50vh;
+}
+
+#map {
+    position: relative;
+    bottom: 2vh;
+    right: 2vw;
+    height: 40vh;
+    border-radius: 25px;
+    box-shadow: 0 0 50px #b571f4;
+}
+
+#contact {
+    text-align: center;
+    color: #af8ad8;
+    font-size: 2em;
+    font-family: blurb;
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: row;
+    background-color: rgb(24, 23, 24);
+    border-style: solid ;
+    border-color: #838383;
+    border-width: thicker;
+    border-radius: 25px;
+}
+
+#socials {
+    padding: 2vw;
+}
+
+.contact-icons {
+    height: 10vh;
+    padding-left: 3vw;
+}
+
+#come-title {
+    font-family: comingsoon;
+    color:#f1dac9;
+    font-size: 2.5em;
+}
+
+#alternatively {
+    font-family: comingsoon;
+    color:#f1dac9;
+    font-size: 1.5em;
 }
 
 /* 
