@@ -423,7 +423,6 @@ body {
     border-color: #838383;
     border-width: thicker;
     border-radius: 25px;
-    margin-bottom: 20vh;
 }
 
 #socials {
@@ -451,6 +450,18 @@ body {
     font-family: comingsoon;
     color:#f1dac9;
 }
+
+#spottieottiedopealicious {
+    color:rgb(41, 39, 41);
+    font-family: Arial;
+    font-size: 0.5em;
+}
+
+#spottieottiedopealicious:hover {
+    color:#b571f4;
+    
+}
+
 /* 
                  ,#####,
                  #_   _#
