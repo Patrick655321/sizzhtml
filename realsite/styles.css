@@ -352,6 +352,8 @@ body {
 }
 
 #right-lists {
+    height: 50vh;
+    margin-left: 5vw;
     align-self: flex-end;
     left: 1vw;
     list-style-type: none;
@@ -373,7 +375,7 @@ body {
 .right-box {
     position: relative;
     background-color: #b571f4;
-    left: 8vw;
+    left: 2vw;
     top: 1vh;
     z-index: 2;
 }
@@ -382,13 +384,14 @@ body {
     flex-direction: row;
     color:#f1dac9;
     position: relative;
-    left: 2vw;
+    left: 10vw;
     font-family: comingsoon;
     font-size: 2.5em;
 }
 
 #sizz-working {
     align-self: flex-end;
+    height: 50vh;
 }
 
 /* 
@@ -546,5 +549,166 @@ body {
         height: 18vh;
         border-radius: 25px;
         z-index: 2;
+        box-shadow: 0 0 25px #b571f4;
+    }
+
+    #services-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10vh;
+        width: 90vw;
+    }
+
+    #services-blurb-container {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    #services-title-container {
+        align-self: flex-end;
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+    }
+    
+    #services-title-box {
+        position: relative;
+        left: 6vw;
+        background-color: #b571f4;
+    }
+
+    .service-item {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #services-title {
+        display: flex;
+        flex-direction: row;
+        color: rgb(41, 39, 41);
+        color:#f1dac9;
+        position: relative;
+        right: 6vw;
+        font-family: title;
+        font-size: 1.5em;
+    }
+    
+    #services-blurb {
+        padding: 2vw;
+        width: 90vw;
+        font-family: arial;
+        font-size: 1em;
+        background-color: rgb(24, 23, 24);
+        color:#af8ad1;
+        border-style: solid ;
+        border-color: #838383;
+        border-width: thick;
+        border-radius: 25px;
+    }
+    #pic-list-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    
+    .serv-pics-left {
+        position: relative;
+        top:0vh;
+        left:1vw;
+        height: 40vh;
+        border-radius: 25px;
+        z-index: 1;
+        box-shadow: 0 0 25px #b571f4;
+    }
+    
+    .left-box {
+        position: relative;
+        background-color: #b571f4;
+        width: 35vw;
+        right: 10vw;
+        top: 1vh;
+        z-index: 2;
+    }
+    .left-titles {
+        display: flex;
+        flex-direction: row;
+        color:#f1dac9;
+        position: relative;
+        right: 9vw;
+        font-family: comingsoon;
+        font-size: 1.5em;
+        
+    }
+    #left-lists {
+        position: relative;
+        height: 42vh;
+        right: 8vw;
+        background-color: rgb(24, 23, 24);
+        padding-left: 2vw;
+        font-size: 0.9em;
+        color:#af8ad8;
+        font-family: title;
+        border-style: solid ;
+        border-color: #838383;
+        border-width: thicker;
+        border-radius: 25px;
+        li {
+            padding: 1vh;
+            list-style-type: none;
+        }
+    }
+    .serv-pics-right {
+        margin-top: 4vh;
+        position: relative;
+        right:8vw;
+        height: 40vh;
+        border-radius: 25px;
+        z-index: 1;
+        box-shadow: 0 0 25px #b571f4;
+    }
+    
+    #right-lists {
+        margin-top: 5vh;
+        height: 45vh;
+        align-self: flex-end;
+        right: 3vw;
+        background-color: rgb(24, 23, 24);
+        padding-right: 2vw;
+        font-size: 0.8em;
+        color:#af8ad1;
+        font-family: title;
+        border-style: solid ;
+        border-color: #838383;
+        border-width: thicker;
+        border-radius: 25px;
+        li {
+            padding: 1vh;
+            list-style-type: none;
+        }
+    }
+    
+    .right-box {
+        position: relative;
+        background-color: #b571f4;
+        width: 30vw;
+        left: 4vw;
+        top: 1vh;
+        z-index: 2;
+    }
+    .right-titles {
+        display: flex;
+        flex-direction: row;
+        color:#f1dac9;
+        position: relative;
+        left: 10vw;
+        font-family: comingsoon;
+        font-size: 2.5em;
+    }
+    
+    #sizz-working {
+        align-self: flex-end;
+        height: 40vh;
     }
 }
