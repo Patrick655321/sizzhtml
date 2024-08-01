@@ -270,6 +270,10 @@ body {
     position: relative;
     background-color: #b571f4;
 }
+.service-item {
+    display: flex;
+    flex-direction: row;
+}
 
 #services-title {
     display: flex;
